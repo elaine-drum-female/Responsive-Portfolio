@@ -244,7 +244,7 @@ section {
     body {
         overflow:auto;
     }
-    
+
     .container,
     header,
     section,
@@ -257,6 +257,21 @@ section {
         display:block;
         background:#4aaaa5;
         text-align:center;
+    }
+
+    nav {
+        display:block;
+        position:relative;
+        text-align:center;
+        margin-top:10px;
+    }
+
+    nav li {
+        list-style: none;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        padding: 10px 0;
     }
 }
  
