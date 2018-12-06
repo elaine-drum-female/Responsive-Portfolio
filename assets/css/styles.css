@@ -57,6 +57,10 @@ h1 {
     line-height:2px;
     }
 
+    nav a:first-child {
+        border-left:0;
+    }
+
     
     nav a.current {
         color:#666666;
