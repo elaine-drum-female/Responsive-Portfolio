@@ -118,7 +118,7 @@ section {
     }
 
     article {
-        width:600px;
+        max-width:600px;
     }
 
     article p {
@@ -190,14 +190,19 @@ section {
     .portfolio-wrapper {
         max-width: 600px;
     }
+
     .portfolio-work {
       display:inline-block;
+      width:250px;
+      position:relative;
+      margin-right:20px;
     }
 
     .portfolio-work img {
-        width:200px;
+        width:250px;
         float:left;
-        margin:20px 20px 20px 0;
+        display:inline-block;
+        margin:20px 0 20px 0;
     }
 
    .portfolio-work h5 {
@@ -206,7 +211,7 @@ section {
         margin-top:120px;
         padding:5px 0;
         display:block;
-        width:200px;
+        width:100%;
         text-align:center;
         font-weight:normal;
         color:#fff;
@@ -256,7 +261,9 @@ section {
     margin-left:20px;
     }
 
-   
+   article {
+       margin-left:20px;
+   }
 
  }
  
@@ -280,6 +287,10 @@ section {
         line-height:0;
     }
 
+    article {
+        margin-left:0;
+    }
+
 }
 
 @media screen and (max-width:640px) {
@@ -299,6 +310,7 @@ section {
 
     .portfolio-work {
         position:relative;
+        width:100%;
     }
 
     h1 {
@@ -325,5 +337,6 @@ section {
         margin-right:0;
         max-width:100%;
     }
+
 }
  
