@@ -272,12 +272,11 @@ section {
 
 @media screen and (max-width:640px) {
     
-    portfolio-wrapper {
+    .portfolio-wrapper {
         max-width:640px;
     }
-    
-    portfolio-work img {
-        
+
+    .portfolio-work img {
         float: none;
         margin: 20px 20px 20px 0;
         display: block;
