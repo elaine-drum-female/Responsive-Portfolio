@@ -61,7 +61,7 @@ h1 {
         border-left:0;
     }
 
-    nav a:last-child {
+    .last {
         border-right:0;
     }
     
