@@ -230,20 +230,27 @@ section {
  /*-------------MEDIA QUERIES-----------*/
 
  @media screen and (max-width: 980px) {
-   
+   body {
+       overflow:auto;
+   }
  }
  
  @media screen and (max-width: 768px) {
     h1 {
         background:purple;
     }
+
+    nav {
+        width:300px;
+    }
+
+    nav li {
+        display:inline-block;
+    }
 }
 
 @media screen and (max-width:640px) {
 
-    body {
-        overflow:auto;
-    }
 
     .container,
     header,
@@ -268,7 +275,6 @@ section {
 
     nav li {
         list-style: none;
-        display:inline-block;
         padding:20px 0;
     }
 
