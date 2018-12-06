@@ -249,6 +249,7 @@ section {
  @media screen and (max-width: 768px) {
     h1 {
         background:purple;
+        margin:0;
     }
 
     header,
