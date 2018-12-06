@@ -61,6 +61,9 @@ h1 {
         border-left:0;
     }
 
+    nav a:last-child {
+        border-right:0;
+    }
     
     nav a.current {
         color:#666666;
