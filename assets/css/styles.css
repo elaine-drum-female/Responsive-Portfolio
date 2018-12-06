@@ -271,5 +271,9 @@ section {
         display:inline-block;
         padding:20px 0;
     }
+
+    nav a {
+        padding:20px 0;
+    }
 }
  
