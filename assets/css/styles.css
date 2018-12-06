@@ -44,6 +44,7 @@ h1 {
  
  nav li {
     display:inline-block;
+    line-height:34px;
 }
 
     nav a {
@@ -240,7 +241,6 @@ section {
    }
 
    nav {
-       line-height:24px;
        padding-right:10px;
    }
 
