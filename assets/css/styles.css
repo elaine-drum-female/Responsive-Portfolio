@@ -256,9 +256,12 @@ section {
     }
 
     header,
-    .container,
-    section {
+    .container {
         width: 100%;
+    }
+
+    section {
+        width:95%;
     }
 
     nav li {
