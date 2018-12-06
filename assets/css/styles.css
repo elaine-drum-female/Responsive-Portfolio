@@ -41,6 +41,11 @@ h1 {
      color:#ccc;
  }
 
+ 
+ nav li {
+    display:inline-block;
+}
+
     nav a {
     text-decoration: none;
     width:90px;
@@ -233,6 +238,12 @@ section {
    body {
        overflow:auto;
    }
+
+   nav {
+       line-height:24px;
+       padding-right:10px;
+   }
+
  }
  
  @media screen and (max-width: 768px) {
@@ -240,13 +251,12 @@ section {
         background:purple;
     }
 
-    nav {
-        width:300px;
+    header,
+    .container,
+    section {
+        width: 100%;
     }
 
-    nav li {
-        display:inline-block;
-    }
 }
 
 @media screen and (max-width:640px) {
