@@ -184,14 +184,14 @@ section {
     */
     
     .portfolio-wrapper {
-        width: 480px;
+        max-width: 480px;
     }
     .portfolio-work {
       display:inline-block;
     }
 
     .portfolio-work img {
-        max-width:200px;
+        width:200px;
         float:left;
         margin:20px 20px 20px 0;
     }
@@ -272,14 +272,11 @@ section {
 
 @media screen and (max-width:640px) {
     
-    .portfolio-wrapper {
-        max-width:640px;
-    }
 
     .portfolio-work img {
-        float: none;
         margin: 20px 20px 20px 0;
         display: block;
+        width:100%;
     }
 
     h1 {
