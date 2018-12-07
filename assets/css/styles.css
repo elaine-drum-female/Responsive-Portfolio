@@ -295,6 +295,9 @@ section {
 
 @media screen and (max-width:640px) {
     
+    article p {
+        text-align:center;
+    }
 
     .portfolio-work img {
         margin: 20px 20px 20px 0;
